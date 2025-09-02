@@ -169,7 +169,7 @@
 &kp GRAVE  &kp N6    &kp N7    &kp N8     &kp N9  &kt N0    &trans  &trans     &trans                &trans                 &trans  &trans
 &trans     &trans    &kp UP    &trans     &trans  &trans    &trans  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
 &trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans    &trans  &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
-&trans     &trans    &trans    &trans     &trans  &trans    &trans  &trans     &trans                &trans                 &trans  &trans
+&trans     &trans    &trans    &trans     &trans  &trans    &trans  &trans     &kp LESS_THAN         &kp GREATER_THAN       &trans  &trans
                                &trans     &trans  &trans    &trans  &trans
                                           &trans  &trans    &trans
             >;
@@ -213,9 +213,9 @@
         layer_5 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp N0  &kp N1  &kp N2  &kp N3  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans
                                 &trans  &trans    &trans
             >;
@@ -224,9 +224,9 @@
         layer_6 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp N0  &kp N1  &kp N2  &kp N3  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans
                                 &trans  &trans    &trans
             >;
