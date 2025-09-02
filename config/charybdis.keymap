@@ -166,12 +166,12 @@
 
         win_raise_layer {
             bindings = <
-&kp GRAVE  &kp N6  &kp N7          &kp N8        &kp N9     &kt N0    &trans  &trans                &trans                 &trans     &trans  &trans
-&trans     &trans  &trans          &kp UP_ARROW  &trans     &trans    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &trans  &trans
-&trans     &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS  &trans  &trans
-&trans     &trans  &trans          &trans        &trans     &trans    &trans  &trans                &trans                 &trans     &trans  &trans
-                                   &trans        &trans     &trans    &trans  &trans
-                                                 &trans     &trans    &trans
+&kp GRAVE  &kp N6    &kp N7    &kp N8     &kp N9  &kt N0    &trans  &trans     &trans                &trans                 &trans  &trans
+&trans     &trans    &kp UP    &trans     &trans  &trans    &trans  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+&trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans    &trans  &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
+&trans     &trans    &trans    &trans     &trans  &trans    &trans  &trans     &trans                &trans                 &trans  &trans
+                               &trans     &trans  &trans    &trans  &trans
+                                          &trans  &trans    &trans
             >;
 
             label = "NUMBERS";
